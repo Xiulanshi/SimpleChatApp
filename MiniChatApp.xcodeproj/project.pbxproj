@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9EC75981BE4398C000DE867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EC75971BE4398C000DE867 /* main.m */; };
+		D9EC759B1BE4398C000DE867 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EC759A1BE4398C000DE867 /* AppDelegate.m */; };
+		D9EC759E1BE4398C000DE867 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EC759D1BE4398C000DE867 /* ViewController.m */; };
+		D9EC75A11BE4398C000DE867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EC759F1BE4398C000DE867 /* Main.storyboard */; };
+		D9EC75A31BE4398C000DE867 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EC75A21BE4398C000DE867 /* Assets.xcassets */; };
+		D9EC75A61BE4398C000DE867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EC75A41BE4398C000DE867 /* LaunchScreen.storyboard */; };
+		D9EC75B11BE4398C000DE867 /* MiniChatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EC75B01BE4398C000DE867 /* MiniChatAppTests.m */; };
+		D9EC75BC1BE4398C000DE867 /* MiniChatAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EC75BB1BE4398C000DE867 /* MiniChatAppUITests.m */; };
+		D9EC75D01BE43A95000DE867 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75C91BE43A95000DE867 /* Bolts.framework */; };
+		D9EC75D11BE43A95000DE867 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75C91BE43A95000DE867 /* Bolts.framework */; };
+		D9EC75D21BE43A95000DE867 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75C91BE43A95000DE867 /* Bolts.framework */; };
+		D9EC75D31BE43A95000DE867 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CA1BE43A95000DE867 /* Parse.framework */; };
+		D9EC75D41BE43A95000DE867 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CA1BE43A95000DE867 /* Parse.framework */; };
+		D9EC75D51BE43A95000DE867 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CA1BE43A95000DE867 /* Parse.framework */; };
+		D9EC75D61BE43A95000DE867 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CB1BE43A95000DE867 /* ParseCrashReporting.framework */; };
+		D9EC75D71BE43A95000DE867 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CB1BE43A95000DE867 /* ParseCrashReporting.framework */; };
+		D9EC75D81BE43A95000DE867 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CB1BE43A95000DE867 /* ParseCrashReporting.framework */; };
+		D9EC75D91BE43A95000DE867 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CC1BE43A95000DE867 /* ParseFacebookUtils.framework */; };
+		D9EC75DA1BE43A95000DE867 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CC1BE43A95000DE867 /* ParseFacebookUtils.framework */; };
+		D9EC75DB1BE43A95000DE867 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CC1BE43A95000DE867 /* ParseFacebookUtils.framework */; };
+		D9EC75DC1BE43A95000DE867 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CD1BE43A95000DE867 /* ParseFacebookUtilsV4.framework */; };
+		D9EC75DD1BE43A95000DE867 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CD1BE43A95000DE867 /* ParseFacebookUtilsV4.framework */; };
+		D9EC75DE1BE43A95000DE867 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CD1BE43A95000DE867 /* ParseFacebookUtilsV4.framework */; };
+		D9EC75DF1BE43A95000DE867 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CE1BE43A95000DE867 /* ParseTwitterUtils.framework */; };
+		D9EC75E01BE43A95000DE867 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CE1BE43A95000DE867 /* ParseTwitterUtils.framework */; };
+		D9EC75E11BE43A95000DE867 /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CE1BE43A95000DE867 /* ParseTwitterUtils.framework */; };
+		D9EC75E21BE43A95000DE867 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CF1BE43A95000DE867 /* ParseUI.framework */; };
+		D9EC75E31BE43A95000DE867 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CF1BE43A95000DE867 /* ParseUI.framework */; };
+		D9EC75E41BE43A95000DE867 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75CF1BE43A95000DE867 /* ParseUI.framework */; };
+		D9EC75E61BE43BEF000DE867 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75E51BE43BEF000DE867 /* AudioToolbox.framework */; };
+		D9EC75E81BE43C00000DE867 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75E71BE43C00000DE867 /* CFNetwork.framework */; };
+		D9EC75EA1BE43C10000DE867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75E91BE43C10000DE867 /* CoreGraphics.framework */; };
+		D9EC75EC1BE43C39000DE867 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75EB1BE43C39000DE867 /* CoreLocation.framework */; };
+		D9EC75EE1BE43C67000DE867 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75ED1BE43C67000DE867 /* QuartzCore.framework */; };
+		D9EC75F01BE43C7C000DE867 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75EF1BE43C7C000DE867 /* Security.framework */; };
+		D9EC75F21BE43C88000DE867 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75F11BE43C88000DE867 /* StoreKit.framework */; };
+		D9EC75F41BE43C96000DE867 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75F31BE43C96000DE867 /* SystemConfiguration.framework */; };
+		D9EC75F61BE43CA3000DE867 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75F51BE43CA3000DE867 /* libz.tbd */; };
+		D9EC75F81BE43CB2000DE867 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75F71BE43CB2000DE867 /* libsqlite3.tbd */; };
+		D9EC75FA1BE43CBE000DE867 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75F91BE43CBE000DE867 /* Accounts.framework */; };
+		D9EC75FC1BE43CC9000DE867 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9EC75FB1BE43CC9000DE867 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9EC75AD1BE4398C000DE867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9EC758B1BE4398B000DE867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9EC75921BE4398C000DE867;
+			remoteInfo = MiniChatApp;
+		};
+		D9EC75B81BE4398C000DE867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9EC758B1BE4398B000DE867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9EC75921BE4398C000DE867;
+			remoteInfo = MiniChatApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9EC75931BE4398C000DE867 /* MiniChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EC75971BE4398C000DE867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9EC75991BE4398C000DE867 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9EC759A1BE4398C000DE867 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9EC759C1BE4398C000DE867 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D9EC759D1BE4398C000DE867 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D9EC75A01BE4398C000DE867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9EC75A21BE4398C000DE867 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9EC75A51BE4398C000DE867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9EC75A71BE4398C000DE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EC75AC1BE4398C000DE867 /* MiniChatAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChatAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EC75B01BE4398C000DE867 /* MiniChatAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniChatAppTests.m; sourceTree = "<group>"; };
+		D9EC75B21BE4398C000DE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EC75B71BE4398C000DE867 /* MiniChatAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChatAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EC75BB1BE4398C000DE867 /* MiniChatAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiniChatAppUITests.m; sourceTree = "<group>"; };
+		D9EC75BD1BE4398C000DE867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EC75C91BE43A95000DE867 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D9EC75CA1BE43A95000DE867 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D9EC75CB1BE43A95000DE867 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		D9EC75CC1BE43A95000DE867 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		D9EC75CD1BE43A95000DE867 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		D9EC75CE1BE43A95000DE867 /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		D9EC75CF1BE43A95000DE867 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		D9EC75E51BE43BEF000DE867 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D9EC75E71BE43C00000DE867 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D9EC75E91BE43C10000DE867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9EC75EB1BE43C39000DE867 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D9EC75ED1BE43C67000DE867 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D9EC75EF1BE43C7C000DE867 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D9EC75F11BE43C88000DE867 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D9EC75F31BE43C96000DE867 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D9EC75F51BE43CA3000DE867 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D9EC75F71BE43CB2000DE867 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D9EC75F91BE43CBE000DE867 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D9EC75FB1BE43CC9000DE867 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9EC75901BE4398C000DE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EC75FC1BE43CC9000DE867 /* Social.framework in Frameworks */,
+				D9EC75FA1BE43CBE000DE867 /* Accounts.framework in Frameworks */,
+				D9EC75F81BE43CB2000DE867 /* libsqlite3.tbd in Frameworks */,
+				D9EC75F61BE43CA3000DE867 /* libz.tbd in Frameworks */,
+				D9EC75F41BE43C96000DE867 /* SystemConfiguration.framework in Frameworks */,
+				D9EC75F21BE43C88000DE867 /* StoreKit.framework in Frameworks */,
+				D9EC75F01BE43C7C000DE867 /* Security.framework in Frameworks */,
+				D9EC75EE1BE43C67000DE867 /* QuartzCore.framework in Frameworks */,
+				D9EC75EC1BE43C39000DE867 /* CoreLocation.framework in Frameworks */,
+				D9EC75EA1BE43C10000DE867 /* CoreGraphics.framework in Frameworks */,
+				D9EC75E81BE43C00000DE867 /* CFNetwork.framework in Frameworks */,
+				D9EC75E61BE43BEF000DE867 /* AudioToolbox.framework in Frameworks */,
+				D9EC75D31BE43A95000DE867 /* Parse.framework in Frameworks */,
+				D9EC75D61BE43A95000DE867 /* ParseCrashReporting.framework in Frameworks */,
+				D9EC75E21BE43A95000DE867 /* ParseUI.framework in Frameworks */,
+				D9EC75D91BE43A95000DE867 /* ParseFacebookUtils.framework in Frameworks */,
+				D9EC75D01BE43A95000DE867 /* Bolts.framework in Frameworks */,
+				D9EC75DF1BE43A95000DE867 /* ParseTwitterUtils.framework in Frameworks */,
+				D9EC75DC1BE43A95000DE867 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9EC75A91BE4398C000DE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EC75D41BE43A95000DE867 /* Parse.framework in Frameworks */,
+				D9EC75D71BE43A95000DE867 /* ParseCrashReporting.framework in Frameworks */,
+				D9EC75E31BE43A95000DE867 /* ParseUI.framework in Frameworks */,
+				D9EC75DA1BE43A95000DE867 /* ParseFacebookUtils.framework in Frameworks */,
+				D9EC75D11BE43A95000DE867 /* Bolts.framework in Frameworks */,
+				D9EC75E01BE43A95000DE867 /* ParseTwitterUtils.framework in Frameworks */,
+				D9EC75DD1BE43A95000DE867 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9EC75B41BE4398C000DE867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EC75D51BE43A95000DE867 /* Parse.framework in Frameworks */,
+				D9EC75D81BE43A95000DE867 /* ParseCrashReporting.framework in Frameworks */,
+				D9EC75E41BE43A95000DE867 /* ParseUI.framework in Frameworks */,
+				D9EC75DB1BE43A95000DE867 /* ParseFacebookUtils.framework in Frameworks */,
+				D9EC75D21BE43A95000DE867 /* Bolts.framework in Frameworks */,
+				D9EC75E11BE43A95000DE867 /* ParseTwitterUtils.framework in Frameworks */,
+				D9EC75DE1BE43A95000DE867 /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9EC758A1BE4398B000DE867 = {
+			isa = PBXGroup;
+			children = (
+				D9EC75FD1BE43CE9000DE867 /* Frameworks */,
+				D9EC75951BE4398C000DE867 /* MiniChatApp */,
+				D9EC75AF1BE4398C000DE867 /* MiniChatAppTests */,
+				D9EC75BA1BE4398C000DE867 /* MiniChatAppUITests */,
+				D9EC75941BE4398C000DE867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9EC75941BE4398C000DE867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC75931BE4398C000DE867 /* MiniChatApp.app */,
+				D9EC75AC1BE4398C000DE867 /* MiniChatAppTests.xctest */,
+				D9EC75B71BE4398C000DE867 /* MiniChatAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9EC75951BE4398C000DE867 /* MiniChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC75991BE4398C000DE867 /* AppDelegate.h */,
+				D9EC759A1BE4398C000DE867 /* AppDelegate.m */,
+				D9EC759C1BE4398C000DE867 /* ViewController.h */,
+				D9EC759D1BE4398C000DE867 /* ViewController.m */,
+				D9EC759F1BE4398C000DE867 /* Main.storyboard */,
+				D9EC75A21BE4398C000DE867 /* Assets.xcassets */,
+				D9EC75A41BE4398C000DE867 /* LaunchScreen.storyboard */,
+				D9EC75A71BE4398C000DE867 /* Info.plist */,
+				D9EC75961BE4398C000DE867 /* Supporting Files */,
+			);
+			path = MiniChatApp;
+			sourceTree = "<group>";
+		};
+		D9EC75961BE4398C000DE867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC75971BE4398C000DE867 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9EC75AF1BE4398C000DE867 /* MiniChatAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC75B01BE4398C000DE867 /* MiniChatAppTests.m */,
+				D9EC75B21BE4398C000DE867 /* Info.plist */,
+			);
+			path = MiniChatAppTests;
+			sourceTree = "<group>";
+		};
+		D9EC75BA1BE4398C000DE867 /* MiniChatAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC75BB1BE4398C000DE867 /* MiniChatAppUITests.m */,
+				D9EC75BD1BE4398C000DE867 /* Info.plist */,
+			);
+			path = MiniChatAppUITests;
+			sourceTree = "<group>";
+		};
+		D9EC75FD1BE43CE9000DE867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9EC75FB1BE43CC9000DE867 /* Social.framework */,
+				D9EC75F91BE43CBE000DE867 /* Accounts.framework */,
+				D9EC75F71BE43CB2000DE867 /* libsqlite3.tbd */,
+				D9EC75F51BE43CA3000DE867 /* libz.tbd */,
+				D9EC75F31BE43C96000DE867 /* SystemConfiguration.framework */,
+				D9EC75F11BE43C88000DE867 /* StoreKit.framework */,
+				D9EC75EF1BE43C7C000DE867 /* Security.framework */,
+				D9EC75ED1BE43C67000DE867 /* QuartzCore.framework */,
+				D9EC75EB1BE43C39000DE867 /* CoreLocation.framework */,
+				D9EC75E91BE43C10000DE867 /* CoreGraphics.framework */,
+				D9EC75E71BE43C00000DE867 /* CFNetwork.framework */,
+				D9EC75E51BE43BEF000DE867 /* AudioToolbox.framework */,
+				D9EC75C91BE43A95000DE867 /* Bolts.framework */,
+				D9EC75CA1BE43A95000DE867 /* Parse.framework */,
+				D9EC75CB1BE43A95000DE867 /* ParseCrashReporting.framework */,
+				D9EC75CC1BE43A95000DE867 /* ParseFacebookUtils.framework */,
+				D9EC75CD1BE43A95000DE867 /* ParseFacebookUtilsV4.framework */,
+				D9EC75CE1BE43A95000DE867 /* ParseTwitterUtils.framework */,
+				D9EC75CF1BE43A95000DE867 /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9EC75921BE4398C000DE867 /* MiniChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9EC75C01BE4398C000DE867 /* Build configuration list for PBXNativeTarget "MiniChatApp" */;
+			buildPhases = (
+				D9EC758F1BE4398C000DE867 /* Sources */,
+				D9EC75901BE4398C000DE867 /* Frameworks */,
+				D9EC75911BE4398C000DE867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniChatApp;
+			productName = MiniChatApp;
+			productReference = D9EC75931BE4398C000DE867 /* MiniChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9EC75AB1BE4398C000DE867 /* MiniChatAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9EC75C31BE4398C000DE867 /* Build configuration list for PBXNativeTarget "MiniChatAppTests" */;
+			buildPhases = (
+				D9EC75A81BE4398C000DE867 /* Sources */,
+				D9EC75A91BE4398C000DE867 /* Frameworks */,
+				D9EC75AA1BE4398C000DE867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9EC75AE1BE4398C000DE867 /* PBXTargetDependency */,
+			);
+			name = MiniChatAppTests;
+			productName = MiniChatAppTests;
+			productReference = D9EC75AC1BE4398C000DE867 /* MiniChatAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9EC75B61BE4398C000DE867 /* MiniChatAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9EC75C61BE4398C000DE867 /* Build configuration list for PBXNativeTarget "MiniChatAppUITests" */;
+			buildPhases = (
+				D9EC75B31BE4398C000DE867 /* Sources */,
+				D9EC75B41BE4398C000DE867 /* Frameworks */,
+				D9EC75B51BE4398C000DE867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9EC75B91BE4398C000DE867 /* PBXTargetDependency */,
+			);
+			name = MiniChatAppUITests;
+			productName = MiniChatAppUITests;
+			productReference = D9EC75B71BE4398C000DE867 /* MiniChatAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9EC758B1BE4398B000DE867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Xiulan Shi";
+				TargetAttributes = {
+					D9EC75921BE4398C000DE867 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 85VFEKU7M5;
+					};
+					D9EC75AB1BE4398C000DE867 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 85VFEKU7M5;
+						TestTargetID = D9EC75921BE4398C000DE867;
+					};
+					D9EC75B61BE4398C000DE867 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 85VFEKU7M5;
+						TestTargetID = D9EC75921BE4398C000DE867;
+					};
+				};
+			};
+			buildConfigurationList = D9EC758E1BE4398B000DE867 /* Build configuration list for PBXProject "MiniChatApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9EC758A1BE4398B000DE867;
+			productRefGroup = D9EC75941BE4398C000DE867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9EC75921BE4398C000DE867 /* MiniChatApp */,
+				D9EC75AB1BE4398C000DE867 /* MiniChatAppTests */,
+				D9EC75B61BE4398C000DE867 /* MiniChatAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9EC75911BE4398C000DE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EC75A61BE4398C000DE867 /* LaunchScreen.storyboard in Resources */,
+				D9EC75A31BE4398C000DE867 /* Assets.xcassets in Resources */,
+				D9EC75A11BE4398C000DE867 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9EC75AA1BE4398C000DE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9EC75B51BE4398C000DE867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9EC758F1BE4398C000DE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EC759E1BE4398C000DE867 /* ViewController.m in Sources */,
+				D9EC759B1BE4398C000DE867 /* AppDelegate.m in Sources */,
+				D9EC75981BE4398C000DE867 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9EC75A81BE4398C000DE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EC75B11BE4398C000DE867 /* MiniChatAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9EC75B31BE4398C000DE867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EC75BC1BE4398C000DE867 /* MiniChatAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9EC75AE1BE4398C000DE867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9EC75921BE4398C000DE867 /* MiniChatApp */;
+			targetProxy = D9EC75AD1BE4398C000DE867 /* PBXContainerItemProxy */;
+		};
+		D9EC75B91BE4398C000DE867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9EC75921BE4398C000DE867 /* MiniChatApp */;
+			targetProxy = D9EC75B81BE4398C000DE867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9EC759F1BE4398C000DE867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9EC75A01BE4398C000DE867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9EC75A41BE4398C000DE867 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9EC75A51BE4398C000DE867 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9EC75BE1BE4398C000DE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9EC75BF1BE4398C000DE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9EC75C11BE4398C000DE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiniChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.MiniChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9EC75C21BE4398C000DE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiniChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.MiniChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9EC75C41BE4398C000DE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiniChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.MiniChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniChatApp.app/MiniChatApp";
+			};
+			name = Debug;
+		};
+		D9EC75C51BE4398C000DE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiniChatAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.MiniChatAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniChatApp.app/MiniChatApp";
+			};
+			name = Release;
+		};
+		D9EC75C71BE4398C000DE867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiniChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.MiniChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniChatApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D9EC75C81BE4398C000DE867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = MiniChatAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.xiulanshi.MiniChatAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiniChatApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9EC758E1BE4398B000DE867 /* Build configuration list for PBXProject "MiniChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EC75BE1BE4398C000DE867 /* Debug */,
+				D9EC75BF1BE4398C000DE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9EC75C01BE4398C000DE867 /* Build configuration list for PBXNativeTarget "MiniChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EC75C11BE4398C000DE867 /* Debug */,
+				D9EC75C21BE4398C000DE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9EC75C31BE4398C000DE867 /* Build configuration list for PBXNativeTarget "MiniChatAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EC75C41BE4398C000DE867 /* Debug */,
+				D9EC75C51BE4398C000DE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9EC75C61BE4398C000DE867 /* Build configuration list for PBXNativeTarget "MiniChatAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EC75C71BE4398C000DE867 /* Debug */,
+				D9EC75C81BE4398C000DE867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9EC758B1BE4398B000DE867 /* Project object */;
+}
